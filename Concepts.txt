@@ -1,0 +1,73 @@
+Simulation:
+
+Algorithms:
+    The general map:
+        Determine what type of map it is (generous, scarce, special, normal)
+        Statistical analysis (num terr w.r.t. bonus value)
+        Territory value (the income a territory gives when controlling all bonuses)
+        Turns it takes to get the whole bonus
+        Score of neighbouring bonuses (the higher the score, the better neighbouring bonuses it has)
+        defendability of a bonus w.r.t. neighbouring bonuses (num outgoing edges)
+    The distribution standing:
+        Cost of a bonus w.r.t. bonus value (take num armies into account)
+        Score of neighbouring bonuses (Now with the cost taken in mind)
+        
+    Picking strategy
+        When we have determined which bonuses are the best for picking, we can determine what pick order would be the best
+        
+
+In the best scenario, a player wants to be able to determine what the opponent gets and what not (they want to be in control of the game). 
+Assuming both players have the same income at all times, you want better positioning:
+    - Uncontested bonuses you control or can control (each territory in this bonus does not border an opponent player)
+    - Contest bonuses your opponent controls or can control
+
+In this project, we will assume that income is gained only from controlling bonuses. 
+In practice, there are other ways to gain income, but controlling bonuses is almost always the main component in income.
+To have uncontested bonuses and meanwhile contest bonuses of your opponent, you want to dominate the map.
+But not by territories, but by bonuses.
+
+Individual territories are worth nothing, unless you have control over all territories in a bonus. 
+We want to find domination sets of territories that dominate bonuses, not territories. 
+
+
+From the picking distribution, we can simulate with domination algorithms which picks result in more control in the game.
+Possible algorithms
+Simple algorithm:
+    1. Make all possible combinations of picks (for n players and m picks per player)
+    2. Simulate expansion for each player with infinite income at the same time
+       For each territory we have the following cases:
+        a. If only 1 player can take the territory, it gets the territory
+        b. If none of more than 1 player can take the territory, none will get the territory
+    3. Count the total income for each player and store results
+
+Logic:
+    - Since players have infinite income, there is no move that is deemed to be too expensive
+    - Since all players have infinite income and move at the same time, when 2 or more players try to expand to a new territory in the same iteration, the result is undefined
+
+
+domination algorithm
+    1. Make all possible combinations of picks (for n players and m picks per player)
+    2. Determine the dominating set for each player, assuming they are the only player
+    3. Simulate expansion for each player at the same time
+        3a. Determine the best next territory to dominate the map
+        3b. At all times, on of the following cases applies
+            a. Only player A wants territory x, so player A gets territory x
+            b. More than 2 players want territory x, so no player gets territory x (x is marked as non-controllable)
+    4. If there are no moves left for all players, stop iterating
+    5. Calculate how much income each player "controls" (i.e. they are the only player that dominate the bonus)
+
+    How to determine the best next territory?
+        Territories that border at least 1 opponent territory become frozen
+
+Logic:
+    - Each player only invest the minimum amount of resources to expand, the rest of their resources is spend taking "totally dominated" bonuses
+
+
+simulation
+    We know the projected successrate of all attacks on players
+    What determines whether an attack fails or succeeds?
+        - Income
+        - Defense/Attack percentage of agents
+        - Position of territories?
+
+77782, 57540

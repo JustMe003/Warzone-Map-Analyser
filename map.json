@@ -1,0 +1,676 @@
+{
+    "map": {
+      "id" : "1748",
+      "name" : "Medium Earth",
+      "territories" : [ {
+        "name" : "Solomon Islands",
+        "id" : "1",
+        "connectedTo" : [ 48, 8 ]
+      }, {
+        "name" : "Moscow",
+        "id" : "2",
+        "connectedTo" : [ 104, 32, 11, 110, 70, 111 ]
+      }, {
+        "name" : "Argentina",
+        "id" : "3",
+        "connectedTo" : [ 64, 147, 93, 125 ]
+      }, {
+        "name" : "Myanmar",
+        "id" : "5",
+        "connectedTo" : [ 49, 26, 29, 119 ]
+      }, {
+        "name" : "Panama",
+        "id" : "6",
+        "connectedTo" : [ 25, 147 ]
+      }, {
+        "name" : "Shanghai",
+        "id" : "7",
+        "connectedTo" : [ 50, 26, 114, 151 ]
+      }, {
+        "name" : "Hawaii",
+        "id" : "8",
+        "connectedTo" : [ 124, 1, 114 ]
+      }, {
+        "name" : "Itseqqortoormiit",
+        "id" : "9",
+        "connectedTo" : [ 88, 78, 62, 127 ]
+      }, {
+        "name" : "Germany",
+        "id" : "10",
+        "connectedTo" : [ 80, 34, 51, 54, 39 ]
+      }, {
+        "name" : "Ukraine",
+        "id" : "11",
+        "connectedTo" : [ 80, 32, 2, 34, 111 ]
+      }, {
+        "name" : "South Australia",
+        "id" : "12",
+        "connectedTo" : [ 122, 91, 27, 134 ]
+      }, {
+        "name" : "Namibia",
+        "id" : "13",
+        "connectedTo" : [ 41, 17, 59 ]
+      }, {
+        "name" : "New Zealand",
+        "id" : "15",
+        "connectedTo" : [ 20, 134, 91 ]
+      }, {
+        "name" : "Great Plains",
+        "id" : "16",
+        "connectedTo" : [ 130, 131, 107, 108, 100, 117 ]
+      }, {
+        "name" : "Angola",
+        "id" : "17",
+        "connectedTo" : [ 41, 145, 13 ]
+      }, {
+        "name" : "Chita",
+        "id" : "18",
+        "connectedTo" : [ 144, 136, 68, 46, 103 ]
+      }, {
+        "name" : "Afghanistan",
+        "id" : "19",
+        "connectedTo" : [ 40, 43, 71, 23 ]
+      }, {
+        "name" : "Scott",
+        "id" : "20",
+        "connectedTo" : [ 128, 91, 15 ]
+      }, {
+        "name" : "Iraq",
+        "id" : "21",
+        "connectedTo" : [ 138, 43, 52, 53 ]
+      }, {
+        "name" : "Madagascar",
+        "id" : "22",
+        "connectedTo" : [ 98, 59 ]
+      }, {
+        "name" : "Tadschikistan",
+        "id" : "23",
+        "connectedTo" : [ 56, 40, 19, 86, 71, 55 ]
+      }, {
+        "name" : "Beijing",
+        "id" : "24",
+        "connectedTo" : [ 113, 50, 60, 68, 30 ]
+      }, {
+        "name" : "Mexico",
+        "id" : "25",
+        "connectedTo" : [ 152, 28, 6, 31, 143 ]
+      }, {
+        "name" : "Hong Kong",
+        "id" : "26",
+        "connectedTo" : [ 49, 113, 50, 5, 7, 119 ]
+      }, {
+        "name" : "Western Australia",
+        "id" : "27",
+        "connectedTo" : [ 12, 90, 122 ]
+      }, {
+        "name" : "Cuba",
+        "id" : "28",
+        "connectedTo" : [ 132, 141, 25 ]
+      }, {
+        "name" : "India",
+        "id" : "29",
+        "connectedTo" : [ 5, 71, 119 ]
+      }, {
+        "name" : "Heilongjiang",
+        "id" : "30",
+        "connectedTo" : [ 24, 60, 68, 46 ]
+      }, {
+        "name" : "Baja",
+        "id" : "31",
+        "connectedTo" : [ 124, 25, 143 ]
+      }, {
+        "name" : "Georgia",
+        "id" : "32",
+        "connectedTo" : [ 2, 43, 11, 36, 70 ]
+      }, {
+        "name" : "Sudan",
+        "id" : "33",
+        "connectedTo" : [ 73, 145, 97, 42, 84, 148 ]
+      }, {
+        "name" : "Italy",
+        "id" : "34",
+        "connectedTo" : [ 80, 10, 51, 11, 52 ]
+      }, {
+        "name" : "Gulf Coast",
+        "id" : "35",
+        "connectedTo" : [ 152, 146, 130, 132, 63 ]
+      }, {
+        "name" : "Western Kazakhstan",
+        "id" : "36",
+        "connectedTo" : [ 40, 32, 70, 86 ]
+      }, {
+        "name" : "Cameroon",
+        "id" : "37",
+        "connectedTo" : [ 73, 145, 77 ]
+      }, {
+        "name" : "Alaska",
+        "id" : "38",
+        "connectedTo" : [ 72, 67, 107 ]
+      }, {
+        "name" : "Sweden",
+        "id" : "39",
+        "connectedTo" : [ 10, 123, 111 ]
+      }, {
+        "name" : "Turkmenistan",
+        "id" : "40",
+        "connectedTo" : [ 43, 19, 36, 86, 23 ]
+      }, {
+        "name" : "Botswana",
+        "id" : "41",
+        "connectedTo" : [ 145, 17, 98, 59, 13 ]
+      }, {
+        "name" : "Somalia",
+        "id" : "42",
+        "connectedTo" : [ 145, 33, 98, 148 ]
+      }, {
+        "name" : "Iran",
+        "id" : "43",
+        "connectedTo" : [ 32, 40, 19, 52, 21, 71 ]
+      }, {
+        "name" : "Tomsk",
+        "id" : "45",
+        "connectedTo" : [ 144, 83, 86, 55, 120, 56, 136 ]
+      }, {
+        "name" : "Khabarovsk",
+        "id" : "46",
+        "connectedTo" : [ 65, 129, 18, 114, 68, 103, 30 ]
+      }, {
+        "name" : "Philippines",
+        "id" : "47",
+        "connectedTo" : [ 48, 81, 151 ]
+      }, {
+        "name" : "Papua New Guinea",
+        "id" : "48",
+        "connectedTo" : [ 81, 1, 122, 47 ]
+      }, {
+        "name" : "Thailand",
+        "id" : "49",
+        "connectedTo" : [ 5, 90, 26 ]
+      }, {
+        "name" : "Jiangxi",
+        "id" : "50",
+        "connectedTo" : [ 24, 113, 26, 7 ]
+      }, {
+        "name" : "France",
+        "id" : "51",
+        "connectedTo" : [ 10, 34, 109, 54 ]
+      }, {
+        "name" : "Turkey",
+        "id" : "52",
+        "connectedTo" : [ 138, 34, 43, 21 ]
+      }, {
+        "name" : "Saudi Arabia",
+        "id" : "53",
+        "connectedTo" : [ 21, 97, 138 ]
+      }, {
+        "name" : "United Kingdom",
+        "id" : "54",
+        "connectedTo" : [ 88, 10, 51 ]
+      }, {
+        "name" : "Xinjiang",
+        "id" : "55",
+        "connectedTo" : [ 144, 119, 23, 71, 56, 45, 79 ]
+      }, {
+        "name" : "Kyrgyzstan",
+        "id" : "56",
+        "connectedTo" : [ 45, 86, 55, 23 ]
+      }, {
+        "name" : "Northwest Territories",
+        "id" : "58",
+        "connectedTo" : [ 67, 107, 100, 61 ]
+      }, {
+        "name" : "South Africa",
+        "id" : "59",
+        "connectedTo" : [ 41, 98, 13, 85, 22 ]
+      }, {
+        "name" : "Korea",
+        "id" : "60",
+        "connectedTo" : [ 24, 30, 114 ]
+      }, {
+        "name" : "Nunavut",
+        "id" : "61",
+        "connectedTo" : [ 112, 154, 58, 100 ]
+      }, {
+        "name" : "Danmark Havn",
+        "id" : "62",
+        "connectedTo" : [ 9, 155, 127 ]
+      }, {
+        "name" : "Western Great Lakes",
+        "id" : "63",
+        "connectedTo" : [ 153, 146, 74, 130, 35 ]
+      }, {
+        "name" : "Brazil",
+        "id" : "64",
+        "connectedTo" : [ 3, 147, 77, 141, 125 ]
+      }, {
+        "name" : "Mys Lopatk",
+        "id" : "65",
+        "connectedTo" : [ 72, 129, 46, 103 ]
+      }, {
+        "name" : "Yukon",
+        "id" : "67",
+        "connectedTo" : [ 38, 58, 107 ]
+      }, {
+        "name" : "Inner Mongolia",
+        "id" : "68",
+        "connectedTo" : [ 144, 113, 18, 24, 30, 46, 79 ]
+      }, {
+        "name" : "Ufa",
+        "id" : "70",
+        "connectedTo" : [ 32, 2, 36, 86, 120, 137, 156, 110 ]
+      }, {
+        "name" : "Pakistan",
+        "id" : "71",
+        "connectedTo" : [ 43, 19, 29, 55, 23 ]
+      }, {
+        "name" : "Anadyr",
+        "id" : "72",
+        "connectedTo" : [ 65, 129, 38 ]
+      }, {
+        "name" : "Chad",
+        "id" : "73",
+        "connectedTo" : [ 33, 145, 99, 84, 77, 37 ]
+      }, {
+        "name" : "Eastern Great Lakes",
+        "id" : "74",
+        "connectedTo" : [ 153, 146, 106, 63 ]
+      }, {
+        "name" : "Ghana",
+        "id" : "76",
+        "connectedTo" : [ 77, 82, 99 ]
+      }, {
+        "name" : "Nigeria",
+        "id" : "77",
+        "connectedTo" : [ 64, 73, 99, 76, 37 ]
+      }, {
+        "name" : "Nuuk",
+        "id" : "78",
+        "connectedTo" : [ 9, 154, 127 ]
+      }, {
+        "name" : "Qinghai",
+        "id" : "79",
+        "connectedTo" : [ 144, 113, 68, 55, 119 ]
+      }, {
+        "name" : "Poland",
+        "id" : "80",
+        "connectedTo" : [ 34, 10, 11 ]
+      }, {
+        "name" : "Borneo",
+        "id" : "81",
+        "connectedTo" : [ 48, 90, 47 ]
+      }, {
+        "name" : "Mali",
+        "id" : "82",
+        "connectedTo" : [ 139, 99, 76, 102 ]
+      }, {
+        "name" : "Tura",
+        "id" : "83",
+        "connectedTo" : [ 120, 136, 105, 45 ]
+      }, {
+        "name" : "Libya",
+        "id" : "84",
+        "connectedTo" : [ 73, 97, 33, 99, 102 ]
+      }, {
+        "name" : "Novolazarevskaya",
+        "id" : "85",
+        "connectedTo" : [ 128, 59 ]
+      }, {
+        "name" : "Eastern Kazakhstan",
+        "id" : "86",
+        "connectedTo" : [ 36, 70, 23, 120, 56, 40, 45 ]
+      }, {
+        "name" : "Iceland",
+        "id" : "88",
+        "connectedTo" : [ 9, 54 ]
+      }, {
+        "name" : "Malaysia",
+        "id" : "90",
+        "connectedTo" : [ 49, 81, 27 ]
+      }, {
+        "name" : "Tasmania",
+        "id" : "91",
+        "connectedTo" : [ 20, 12, 15 ]
+      }, {
+        "name" : "Siple",
+        "id" : "93",
+        "connectedTo" : [ 128, 3 ]
+      }, {
+        "name" : "Egypt",
+        "id" : "97",
+        "connectedTo" : [ 33, 138, 84, 53 ]
+      }, {
+        "name" : "Kenya",
+        "id" : "98",
+        "connectedTo" : [ 145, 41, 42, 59, 22 ]
+      }, {
+        "name" : "Niger",
+        "id" : "99",
+        "connectedTo" : [ 73, 82, 84, 76, 77, 102 ]
+      }, {
+        "name" : "Alberta",
+        "id" : "100",
+        "connectedTo" : [ 16, 153, 58, 130, 107, 61 ]
+      }, {
+        "name" : "Algeria",
+        "id" : "102",
+        "connectedTo" : [ 82, 139, 99, 84, 109 ]
+      }, {
+        "name" : "Eastern Siberia",
+        "id" : "103",
+        "connectedTo" : [ 136, 65, 18, 46 ]
+      }, {
+        "name" : "Murmansk",
+        "id" : "104",
+        "connectedTo" : [ 2, 123, 110, 111 ]
+      }, {
+        "name" : "Jessej",
+        "id" : "105",
+        "connectedTo" : [ 120, 136, 137, 83 ]
+      }, {
+        "name" : "Atlantic Northeast",
+        "id" : "106",
+        "connectedTo" : [ 153, 146, 74, 154 ]
+      }, {
+        "name" : "British Columbia",
+        "id" : "107",
+        "connectedTo" : [ 16, 58, 67, 100, 108, 38 ]
+      }, {
+        "name" : "Pacific Northwest",
+        "id" : "108",
+        "connectedTo" : [ 16, 131, 107, 124 ]
+      }, {
+        "name" : "Spain",
+        "id" : "109",
+        "connectedTo" : [ 102, 51 ]
+      }, {
+        "name" : "Arkhangelsk",
+        "id" : "110",
+        "connectedTo" : [ 104, 2, 156, 70 ]
+      }, {
+        "name" : "Finland",
+        "id" : "111",
+        "connectedTo" : [ 104, 2, 123, 11, 39 ]
+      }, {
+        "name" : "Qaanaaq",
+        "id" : "112",
+        "connectedTo" : [ 61, 127 ]
+      }, {
+        "name" : "Shaanxi",
+        "id" : "113",
+        "connectedTo" : [ 24, 50, 26, 68, 119, 79 ]
+      }, {
+        "name" : "Japan",
+        "id" : "114",
+        "connectedTo" : [ 8, 129, 60, 46, 7 ]
+      }, {
+        "name" : "Rocky Mountains",
+        "id" : "117",
+        "connectedTo" : [ 16, 130, 131, 143 ]
+      }, {
+        "name" : "Tibet",
+        "id" : "119",
+        "connectedTo" : [ 113, 26, 29, 5, 79, 55 ]
+      }, {
+        "name" : "Omsk",
+        "id" : "120",
+        "connectedTo" : [ 105, 137, 83, 45, 70, 86 ]
+      }, {
+        "name" : "Queensland",
+        "id" : "122",
+        "connectedTo" : [ 48, 27, 12, 134 ]
+      }, {
+        "name" : "Norway",
+        "id" : "123",
+        "connectedTo" : [ 104, 155, 111, 39 ]
+      }, {
+        "name" : "California",
+        "id" : "124",
+        "connectedTo" : [ 8, 131, 108, 31, 143 ]
+      }, {
+        "name" : "Bolivia",
+        "id" : "125",
+        "connectedTo" : [ 64, 3 ]
+      }, {
+        "name" : "Nord",
+        "id" : "127",
+        "connectedTo" : [ 112, 9, 78, 62 ]
+      }, {
+        "name" : "South Pole",
+        "id" : "128",
+        "connectedTo" : [ 20, 93, 85 ]
+      }, {
+        "name" : "Kamchatka",
+        "id" : "129",
+        "connectedTo" : [ 72, 65, 114, 46 ]
+      }, {
+        "name" : "Midwest",
+        "id" : "130",
+        "connectedTo" : [ 16, 153, 35, 100, 117, 63 ]
+      }, {
+        "name" : "Great Basin",
+        "id" : "131",
+        "connectedTo" : [ 16, 108, 124, 117, 143 ]
+      }, {
+        "name" : "Florida",
+        "id" : "132",
+        "connectedTo" : [ 28, 146, 35 ]
+      }, {
+        "name" : "New Southwales",
+        "id" : "134",
+        "connectedTo" : [ 12, 122, 15 ]
+      }, {
+        "name" : "Western Siberia",
+        "id" : "136",
+        "connectedTo" : [ 144, 105, 18, 83, 45, 103 ]
+      }, {
+        "name" : "Dudinka",
+        "id" : "137",
+        "connectedTo" : [ 120, 105, 156, 70 ]
+      }, {
+        "name" : "Israel",
+        "id" : "138",
+        "connectedTo" : [ 97, 52, 21, 53 ]
+      }, {
+        "name" : "Mauritania",
+        "id" : "139",
+        "connectedTo" : [ 102, 82 ]
+      }, {
+        "name" : "Venezuela",
+        "id" : "141",
+        "connectedTo" : [ 64, 28, 147 ]
+      }, {
+        "name" : "Southwest",
+        "id" : "143",
+        "connectedTo" : [ 152, 25, 131, 124, 117, 31 ]
+      }, {
+        "name" : "Mongolia",
+        "id" : "144",
+        "connectedTo" : [ 136, 18, 68, 45, 79, 55 ]
+      }, {
+        "name" : "Congo",
+        "id" : "145",
+        "connectedTo" : [ 33, 17, 98, 37, 41, 73, 42 ]
+      }, {
+        "name" : "Tennessee",
+        "id" : "146",
+        "connectedTo" : [ 74, 106, 35, 132, 63 ]
+      }, {
+        "name" : "Colombia",
+        "id" : "147",
+        "connectedTo" : [ 64, 3, 141, 6 ]
+      }, {
+        "name" : "Ethiopia",
+        "id" : "148",
+        "connectedTo" : [ 33, 42 ]
+      }, {
+        "name" : "Taiwan",
+        "id" : "151",
+        "connectedTo" : [ 7, 47 ]
+      }, {
+        "name" : "Texas",
+        "id" : "152",
+        "connectedTo" : [ 25, 35, 143 ]
+      }, {
+        "name" : "Ontario",
+        "id" : "153",
+        "connectedTo" : [ 154, 106, 74, 130, 100, 63 ]
+      }, {
+        "name" : "Quebec",
+        "id" : "154",
+        "connectedTo" : [ 153, 106, 61, 78 ]
+      }, {
+        "name" : "Svalbard",
+        "id" : "155",
+        "connectedTo" : [ 62, 123 ]
+      }, {
+        "name" : "Vorkuta",
+        "id" : "156",
+        "connectedTo" : [ 137, 110, 70 ]
+      } ],
+      "bonuses" : [ {
+        "id" : "1",
+        "name" : "Central Russia",
+        "value" : "4",
+        "territoryIDs" : [ 83, 45, 120, 105, 137 ]
+      }, {
+        "id" : "2",
+        "name" : "Australia",
+        "value" : "5",
+        "territoryIDs" : [ 27, 122, 134, 12, 91, 15 ]
+      }, {
+        "id" : "3",
+        "name" : "East Russia",
+        "value" : "5",
+        "territoryIDs" : [ 136, 18, 46, 103, 65, 129, 72 ]
+      }, {
+        "id" : "4",
+        "name" : "Europe",
+        "value" : "5",
+        "territoryIDs" : [ 54, 51, 109, 34, 10, 80, 11 ]
+      }, {
+        "id" : "5",
+        "name" : "Middle East",
+        "value" : "4",
+        "territoryIDs" : [ 138, 52, 21, 53, 43, 19 ]
+      }, {
+        "id" : "6",
+        "name" : "Central America",
+        "value" : "3",
+        "territoryIDs" : [ 28, 6, 25, 31 ]
+      }, {
+        "id" : "7",
+        "name" : "East China",
+        "value" : "4",
+        "territoryIDs" : [ 24, 50, 26, 7, 151 ]
+      }, {
+        "id" : "8",
+        "name" : "North Africa",
+        "value" : "3",
+        "territoryIDs" : [ 102, 84, 99, 82, 139 ]
+      }, {
+        "id" : "9",
+        "name" : "West US",
+        "value" : "5",
+        "territoryIDs" : [ 16, 117, 152, 143, 131, 124, 108 ]
+      }, {
+        "id" : "10",
+        "name" : "West Russia",
+        "value" : "4",
+        "territoryIDs" : [ 156, 70, 2, 104, 110 ]
+      }, {
+        "id" : "11",
+        "name" : "Canada",
+        "value" : "5",
+        "territoryIDs" : [ 107, 67, 58, 61, 154, 153, 100 ]
+      }, {
+        "id" : "12",
+        "name" : "South America",
+        "value" : "4",
+        "territoryIDs" : [ 141, 147, 64, 3, 125 ]
+      }, {
+        "id" : "13",
+        "name" : "Scandinavian Peninsula",
+        "value" : "3",
+        "territoryIDs" : [ 123, 39, 111, 155 ]
+      }, {
+        "id" : "14",
+        "name" : "East US",
+        "value" : "5",
+        "territoryIDs" : [ 130, 35, 63, 74, 106, 146, 132 ]
+      }, {
+        "id" : "15",
+        "name" : "Greenland",
+        "value" : "5",
+        "territoryIDs" : [ 112, 127, 78, 9, 62, 88 ]
+      }, {
+        "id" : "16",
+        "name" : "Indonesia",
+        "value" : "4",
+        "territoryIDs" : [ 90, 81, 47, 48, 1 ]
+      }, {
+        "id" : "17",
+        "name" : "East Africa",
+        "value" : "4",
+        "territoryIDs" : [ 97, 33, 148, 42, 98 ]
+      }, {
+        "id" : "18",
+        "name" : "Antarctica",
+        "value" : "3",
+        "territoryIDs" : [ 128, 93, 85, 20 ]
+      }, {
+        "id" : "19",
+        "name" : "Southeast Asia",
+        "value" : "3",
+        "territoryIDs" : [ 71, 29, 5, 49 ]
+      }, {
+        "id" : "20",
+        "name" : "West Africa",
+        "value" : "4",
+        "territoryIDs" : [ 76, 77, 73, 37, 145 ]
+      }, {
+        "id" : "21",
+        "name" : "West China",
+        "value" : "6",
+        "territoryIDs" : [ 55, 144, 68, 30, 113, 79, 119 ]
+      }, {
+        "id" : "22",
+        "name" : "Caucasus",
+        "value" : "5",
+        "territoryIDs" : [ 32, 36, 40, 23, 56, 86 ]
+      }, {
+        "id" : "23",
+        "name" : "South Africa",
+        "value" : "3",
+        "territoryIDs" : [ 17, 41, 22, 13, 59 ]
+      }, {
+        "id" : "24",
+        "name" : "Alaska",
+        "value" : "0",
+        "territoryIDs" : [ 38 ]
+      }, {
+        "id" : "25",
+        "name" : "Hawaii",
+        "value" : "0",
+        "territoryIDs" : [ 8 ]
+      }, {
+        "id" : "26",
+        "name" : "Korea",
+        "value" : "0",
+        "territoryIDs" : [ 60 ]
+      }, {
+        "id" : "27",
+        "name" : "Japan",
+        "value" : "0",
+        "territoryIDs" : [ 114 ]
+      } ],
+      "distributionModes" : [ {
+        "id" : 1,
+        "name" : "Cities",
+        "type" : "normal"
+      }, {
+        "id" : 2,
+        "name" : "Warlords",
+        "type" : "normal"
+      } ]
+    }
+}
