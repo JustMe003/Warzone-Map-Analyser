@@ -70,7 +70,7 @@ export class PrecisionRecallMetric {
         return this.getPrecisionAt(this.relevantSet.length);
     }
 
-    public getFScore() {
-        return 2 / ((1 / this.getRecallAt()) + (1 / this.getPrecisionAt()));
+    public getFScore(n: number = this.relevantSet.length) {
+        return 2 / ((1 / this.getRecallAt(n)) + (1 / this.getPrecisionAt(n)));
     }
 }

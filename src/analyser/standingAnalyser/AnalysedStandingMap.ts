@@ -35,7 +35,7 @@ export class AnalysedStandingMap extends AnalysedMap {
         this.allPicksMetric = new PrecisionRecallMetric();  
     }
 
-    public analyse(bonusWeights: ScoreWeights = [4, 2, 4], pickWeights: ScoreWeights = [3, 2, 1]) {
+    public analyse(bonusWeights: ScoreWeights = [4, 2, 4], pickWeights: ScoreWeights = [1, 1, 1]) {
         if (this.vertices.size > 500) alert("Note that loading big maps might take a while. The software will probably not be responsive until it has finished analysing the map");
         this.vertices.forEach(v => {
             v.analyse();

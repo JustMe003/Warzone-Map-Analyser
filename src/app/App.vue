@@ -45,11 +45,11 @@ listen("loadWarzoneGame", async e => {
 listen("analyseWarzoneGames", async e => {
   appData.setDoAnalyseMap(false);
   const weights = [
-    // [2, 2, 1],
-    // [2, 1, 2],
-    // [1, 2, 2],
-    // [2, 1, 1],
-    // [1, 2, 1],
+    [2, 2, 1],
+    [2, 1, 2],
+    [1, 2, 2],
+    [2, 1, 1],
+    [1, 2, 1],
     [1, 1, 2],
     [3, 2, 1],
     [3, 1, 2],
@@ -61,7 +61,7 @@ listen("analyseWarzoneGames", async e => {
   ];
   for (let i = 0; i < weights.length; i++) {
       console.log("iteration " + (i + 1) + " of " + (weights.length) + "\nWeights: ", weights[i]);
-      await new GamesListAnalyser(e.payload as string).analyse(weights[i], [3, 2, 1], async (path) => {
+      await new GamesListAnalyser(e.payload as string).analyse(weights[i], [1, 1, 1], async (path) => {
         updateWarzoneMap(await loadWarzoneGame(path));
         return appData.getAnalysedMap() as AnalysedMap;
       });
